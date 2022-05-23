@@ -1,4 +1,21 @@
-# Basic Sample Hardhat Project
+# DisCarbon contracts
+
+Install all dependencies
+
+```npm install```
+
+copy the "env" file to ".env" and fill in the needed Keys.
+
+Fork the polygon mainnet
+
+```hh node```
+
+(need to have hardhat shorthand installed for this: ```npm i -g hardhat-shorthand```)
+
+
+
+
+
 
 This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
 
