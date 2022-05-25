@@ -14,9 +14,6 @@ Fork the polygon mainnet
 
 
 
-
-
-
 This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
 
 Try running some of the following tasks:
@@ -30,3 +27,17 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+
+## Running the Test Script
+
+```
+npx hardhat compile
+node scripts/test-wrapper.js
+```
+
+## Helpful Links
+
+Toucan token and contract addresses:
+- https://toucan.earth/contracts
+- https://test.toucan.earth/contracts
+- https://github.com/ToucanProtocol/example-implementations/blob/main/README.md
